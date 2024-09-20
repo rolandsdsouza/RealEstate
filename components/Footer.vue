@@ -11,7 +11,7 @@
                     <img src="/images/logo1.png" alt="">
                     <img src="/images/logo.png" alt="">
                     </NuxtLink>
-                    <NuxtLink to="https://www.instagram.com/" target="_blank">
+                    <NuxtLink to="https://www.instagram.com/roland_s_dsouza/" target="_blank">
                     <img class="social" src="/images/Social.png" alt="">
                     </NuxtLink>
                 </div>
