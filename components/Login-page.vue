@@ -31,9 +31,10 @@
           <v-card
             class="mx-auto pa-12 pb-8"
             elevation="8"
-            max-width="45vw"
-            max-height="70vh"
+            max-width="80vw"
+            max-height="90vh"
             rounded="lg"
+            margin-right="10px"
             background-color="transparent"
             color="rgb(196, 168, 121)"
           >
@@ -46,7 +47,7 @@
             <div class="text-subtitle-1 text-medium-emphasis">Account</div>
 
             <v-text-field
-              width="25vw"
+              
               density="compact"
               placeholder="Email address"
               prepend-inner-icon="mdi-email-outline"
@@ -61,7 +62,7 @@
             </div>
 
             <v-text-field
-              width="25vw"
+              
               :append-inner-icon="visible ? 'mdi-eye-off' : 'mdi-eye'"
               :type="visible ? 'text' : 'password'"
               density="compact"
@@ -78,7 +79,6 @@
               class="mb-8"
               color="#D79110"
               size="large"
-              variant="tonal"
               block
               :disabled="!canSubmit"
             >
@@ -212,7 +212,7 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
+  margin-top: 20vh;
 }
 
 .v-card {
@@ -235,24 +235,24 @@ onMounted(() => {
     font-size: 10vw;
   }
 
-  .img-slide {
+  /* .img-slide {
     height: 250px;
-  }
+  } */
 
-  .login-box1 {
+  /* .login-box1 {
     width: 500px;
-  }
-  .mx-auto {
+  } */
+  /* .mx-auto {
     width: 400px;
 
-  }
+  } */
   .login-page1 {
-  /* margin-top: 5vw; */
   height: 200vh;
   width: 200vw;
   background-color: antiquewhite
 
 }
-
 }
+
+
 </style>
