@@ -283,7 +283,7 @@
     margin-top: 2vw;
     display: flex;
     margin-bottom: 1%; 
-    width: 20vh;
+    width: 30vh;
 }
 }
 </style>
