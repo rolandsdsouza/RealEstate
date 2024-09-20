@@ -3,7 +3,7 @@
 <template>
 <div>
 
-<Login-header/>
+
 <login-page/>
 
 

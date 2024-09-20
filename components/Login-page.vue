@@ -10,7 +10,7 @@
           <div class="swiper-container">
             <swiper
               :modules="[Pagination, Autoplay]"
-              :slides-per-view="1"
+              :slides-per-view="3"
               :pagination="{ clickable: true }"
               :autoplay="{ delay: 2000, disableOnInteraction: false }"
               @swiper="onSwiper"
@@ -31,11 +31,18 @@
           <v-card
             class="mx-auto pa-12 pb-8"
             elevation="8"
-            max-width="40vw"
+            max-width="45vw"
             max-height="70vh"
             rounded="lg"
             background-color="transparent"
+            color="rgb(196, 168, 121)"
           >
+            <div class="head">
+    <div class="logo d-sm-left-0">
+      <img id="logo-1" src="/images/logo1.png" />
+      <img id="logo-2" src="/images/logo.png" alt="" />
+    </div>
+  </div>
             <div class="text-subtitle-1 text-medium-emphasis">Account</div>
 
             <v-text-field
@@ -142,10 +149,12 @@ onMounted(() => {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 20px;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
-.hero-full,
+.hero-full{
+  margin-top: 10%;
+}
 .hero-full2 {
   flex: 1;
   min-width: 300px;
@@ -155,6 +164,7 @@ onMounted(() => {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  /* border-radius: 10px; */
 }
 
 .img-container {
@@ -162,17 +172,24 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f0f0f0;
+  background-color: #FAEAD7;
+  /* border-radius: 10px; */
 }
 
 .login-page1 {
-  margin-top: 15vw;
+  /* margin-top: 5vw; */
+  height: 100vh;
+  background-color: antiquewhite
+
 }
 
 .img-slide {
-  width: 100%;
+  width: 90%;
   height: 100%;
+  /* margin-block: 10px; */
   object-fit: cover;
+  border-radius: 10px
+  
 }
 
 .footer-title1 h2 {
@@ -195,10 +212,11 @@ onMounted(() => {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 15vh;
 }
 
 .v-card {
+  margin: 0 auto;
   max-width: 300px;
   width: 100%;
 }
@@ -210,11 +228,11 @@ onMounted(() => {
   }
 
   .footer-title1 h2 {
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   .footer-title1 h1 {
-    font-size: 5vw;
+    font-size: 10vw;
   }
 
   .img-slide {
@@ -222,7 +240,19 @@ onMounted(() => {
   }
 
   .login-box1 {
-    width: 400px;
+    width: 500px;
   }
+  .mx-auto {
+    width: 400px;
+
+  }
+  .login-page1 {
+  /* margin-top: 5vw; */
+  height: 200vh;
+  width: 200vw;
+  background-color: antiquewhite
+
+}
+
 }
 </style>

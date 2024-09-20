@@ -1,6 +1,7 @@
 # Nuxt build files
 .nuxt
-output
+.output
+dist
 
 # Nuxt generated files
 node_modules
