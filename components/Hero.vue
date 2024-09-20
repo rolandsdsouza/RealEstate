@@ -71,4 +71,24 @@ const listings = () => {
     content: "\F19B0";
     color: #FFAC12;
 }
+
+
+@media (max-width: 768px) {
+    .hero-full{
+        margin-top: 10%;
+    }
+    .hero-btn{
+        font-size: 10px;
+    }
+    .hero-title h1{
+        font-size: 6vw;
+        /* line-height: 25px; */
+    }
+
+
+
+
+
+
+}
 </style>

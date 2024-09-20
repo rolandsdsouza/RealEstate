@@ -63,11 +63,11 @@
   font-size: 1.5vw;
 }
 .good-hands-btn {
-  width: 20vw;
+  width: 25vw;
   height: 5vw;
   color: white;
   background-color: black;
-  padding: 10px;
+  padding: 5px;
   margin-top: 2%;
   font-size: 2vw;
 }
@@ -75,6 +75,29 @@
   content: "\F19B0";
   color: #ffac12;
 }
+@media (max-width: 768px) {
+  .section-1 h1{
+    font-size: 7vw;
+  }
+    .section-1 p{
+    font-size: 2.5vw;
+  }
+  .section-2 img {
+  margin-top: 10%;
+  width: 70vw;
+  /* left: -20%; */
+  }
+  .section-1 {
+  display: flex;
+  /* justify-content: center; */
+  }
+}
+
+
+
+
+
+
 </style>
 
 <script setup>
@@ -82,4 +105,5 @@ const router = useRouter();
 const more = () => {
 router.push("#footer");  
 };
+
 </script>

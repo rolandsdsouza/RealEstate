@@ -184,14 +184,32 @@
     flex-wrap: wrap;
 }
 .house-icons1 h1{
-    font-size: 50px;
-    margin-top: -20px;
+    font-size: 35px;
+    margin-top: -10px;
 }
 .house-flex img{
-    width: 10vw;
-    height: 50px;
+    padding: 5px;
+    /* margin-left: 1px; */
+    width: 40px;
+    height: 40px;
 }
 .house-flex{
     display: flex;
 }
+@media (max-width: 768px) {
+    .house-1 h1{
+    font-size: 8vw;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.place-line h1{
+    margin-left: 10%;
+    margin-top: 1%;
+    font-size: 7vw;
+}
+
+
+}
+
 </style>

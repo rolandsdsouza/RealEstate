@@ -35,10 +35,12 @@
   background-color: #656384;
 }
 .logo {
+  /* position: fixed; */
   padding: 2vw;
   width: 15vw;
   height: 10vw;
   display: flex;
+  margin-top: 10px;
 }
 #logo-1 {
   width: 2vw;
@@ -150,6 +152,28 @@
 
 .sidebar.open {
   left: 0;
+}
+
+@media (max-width: 768px) {
+  .menu-button{
+    font-size: 20px;
+  }
+  #logo-1 {
+  width: 2vw;
+  height: 7vw;
+}
+#logo-2 {
+  margin-top: 1.5vw;
+  margin-left: 10px;
+  width: 15vw;
+  height: 4vw;
+}
+
+
+
+
+
+
 }
 
 

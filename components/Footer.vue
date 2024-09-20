@@ -110,4 +110,24 @@
 .social{
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    .footer-title1 h2{
+    font-size: 6vw;
+    color: white;
+    margin-left: 10vw;
+}
+.footer-title1{
+    display: flex;
+}
+.footer-title1 h1{
+    font-size: 6vw;
+    color: #FFAC12;
+    margin-left: 1vw;
+}
+
+
+
+
+
+}
 </style>

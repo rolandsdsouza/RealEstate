@@ -27,7 +27,7 @@
     background-image: linear-gradient( to right,#FFAC12, black);
     border: 1px;
     border-radius: 10px;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 .black-content h1{
     font-size: 4vw;
@@ -47,6 +47,20 @@
 :deep(.mdi-arrow-right-thin::before){
     content: "\F19B0";
     color: white;
+}
+@media (max-width: 768px) {
+    .black-content h1{
+    font-size: 7vw;
+    color: white;
+}
+.black-content p{
+    font-size: 2vw;
+    color: white;
+}
+
+
+
+
 }
 </style>
 
