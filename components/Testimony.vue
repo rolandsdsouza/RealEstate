@@ -206,6 +206,7 @@
     margin-top: 2vw;
     display: flex;
     margin-bottom: 1%; 
+    width: 30vh;
 }
 
 .black-image {
@@ -253,6 +254,13 @@
         font-size: 4vw;
     } */
 }
+.box-black {
+    background-color: black;
+    margin-top: 2vw;
+    display: flex;
+    margin-bottom: 1%; 
+    width: 30vw;
+}
 
 @media (max-width: 544px) {
     .box-1 {
@@ -263,12 +271,19 @@
         margin-bottom: 30px
     }
     .box-1 p{
-        width: 200px;
+        width: 250px;
         margin-bottom: 30px;
         font-size: 3.5vw;
     }
     .box-box h1{
         font-size: 4vw;
     }
+    .box-black {
+    background-color: black;
+    margin-top: 2vw;
+    display: flex;
+    margin-bottom: 1%; 
+    width: 20vh;
+}
 }
 </style>
